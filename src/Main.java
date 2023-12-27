@@ -1,9 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println();
         int amount = 14_000;
-        boolean isReagistered = true;
-
-
+        int price = 20;
+        int bonus = amount / price;
+        System.out.println("Итоговый бонус " + bonus);
     }
 }
